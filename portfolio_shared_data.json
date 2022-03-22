@@ -1,0 +1,68 @@
+{
+    "basic_info": {
+      "name": "Patrick Dohn",
+      "titles": [ "Front-end Developer", "Software Engineer", "Full-Stack Developer" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/PatrickDohn",
+          "class": "fab fa-github"
+        }
+      ],
+      "image": "profilePic.png"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-original",
+          "level": "95"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain",
+          "level": "90"
+        },
+        {
+          "name": "nodejs",
+          "class": "devicon-nodejs-plain",
+          "level": "95"
+        },
+        {
+          "name": "express",
+          "class": "devicon-express-original",
+          "level": "95"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "95"
+        },
+        {
+          "name": "Ionic",
+          "class": "devicon-ionic-original",
+          "level": "95"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "95"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "95"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "95"
+        }
+      ]
+    }
+  }

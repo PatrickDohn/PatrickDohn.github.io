@@ -1,0 +1,118 @@
+{
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "Im a developer focused on finding innovative ways to efficiently develop, design, and optimize web applications. I'm a hard-working, quick learning individual who strives in pushing myself and learning new things.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "ResGenie",
+      "startDate": "2020",
+      "description": [
+        "• Created a web application that converts JSON into a preformatted resume.",
+        "• Wrote a custom webpack config for Javascript bundling and optimization.",
+        "• Set up ESLint and Prettier with pre-commit Git hooks for code consistency.",
+        "• Researched and implemented third-party packages for rendering PDFs on the web page."
+      ],
+      "images": ["images/Res-Gen.png", "images/Res-Gen-Demo.png"],
+      "url": "https://github.com/starter-code/res-gen",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Medi Thanks",
+      "startDate": "2020",
+      "description": [
+        "• A web app for frontline medical workers to receive appreciation for their work.",
+        "• Spearheaded a hackathon winning fullstack application.",
+        "• Collaborated with UX designers to implement an intuitive user experience.",
+        "• Set up authentication with three other engineers."
+      ],
+      "images": ["images/Medi-thanks.png"],
+      "url": "https://github.com/PB-J/frontline-frontend",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        }
+      ]
+    },
+    {
+      "title": "Kettle",
+      "startDate": "2020",
+      "description": [
+        "This application is a social media platform inspired by Twitter. The idea is that users can come here to share their ideas. Each user can view the posts of other users in the homepage feed or on their wall."
+      ],
+      "images": ["images/Kettle.png"],
+      "url": "https://github.com/C2C-NeedABr/kettle-client",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "F1V",
+      "title": "Software Engineer",
+      "years": "09.2021 - present",
+      "mainTech": ["JavaScript"],
+      "technologies": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Ionic",
+        "Express",
+        "sqlite",
+        "NodeJs",
+        "Docker"
+      ]
+    },
+    {
+      "company": "F1V",
+      "title": "Software Engineer Intern",
+      "years": "04.2021 - 09.2021",
+      "mainTech": ["JavaScript"],
+      "technologies": ["JavaScript", "TypeScript", "React", "Wordpress"]
+    }
+  ]
+}
