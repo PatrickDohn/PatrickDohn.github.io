@@ -71,6 +71,7 @@ class Experience extends Component {
               <span className="text-black" style={{ textAlign: "center" }}>
                 {sectionName}
               </span>
+              <a href="/patrick-dohn-resume.pdf" target="_blank" rel="noref"  >resume</a>
             </h1>
           </div>
         </div>
