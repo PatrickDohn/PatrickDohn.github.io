@@ -33,6 +33,12 @@ class ProjectDetailsModal extends Component {
             return <div key={i} data-src={elem} />;
           });
         }
+        if(description) {
+         var bullets = description.map((bullet, i) => {
+            console.log(bullet)
+            return <p className="modal-description">{bullet}</p>;
+          })
+        }
       }
     }
     return (
@@ -93,7 +99,7 @@ class ProjectDetailsModal extends Component {
                 </a>
               ) : null}
             </h3>
-            <p className="modal-description">{description}</p>
+            {bullets}
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>

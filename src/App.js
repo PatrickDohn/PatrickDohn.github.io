@@ -19,50 +19,28 @@ class App extends Component {
     };
   }
 
-  applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
-    this.swapCurrentlyActiveLanguage(oppositeLangIconId);
-    document.documentElement.lang = pickedLanguage;
-    var resumePath =
-      document.documentElement.lang === window.$primaryLanguage
-        ? `res_primaryLanguage.json`
-        : `res_secondaryLanguage.json`;
-    this.loadResumeFromPath(resumePath);
-  }
-
-  swapCurrentlyActiveLanguage(oppositeLangIconId) {
-    var pickedLangIconId =
-      oppositeLangIconId === window.$primaryLanguageIconId
-        ? window.$secondaryLanguageIconId
-        : window.$primaryLanguageIconId;
-    document
-      .getElementById(oppositeLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
-    document
-      .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(40%)");
-  }
 
   componentDidMount() {
     this.loadSharedData();
-    this.applyPickedLanguage(
-      window.$primaryLanguage,
-      window.$secondaryLanguageIconId
-    );
+    this.loadResData()
   }
 
-  loadResumeFromPath(path) {
+
+  loadResData() {
     $.ajax({
-      url: path,
+      url: `res_primaryLanguage.json`,
       dataType: "json",
       cache: false,
       success: function (data) {
         this.setState({ resumeData: data });
+        document.title = `${this.state.resumeData.basic_info}`;
       }.bind(this),
       error: function (xhr, status, err) {
         alert(err);
       },
     });
   }
+
 
   loadSharedData() {
     $.ajax({
@@ -84,7 +62,7 @@ class App extends Component {
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />
         <div className="col-md-12 mx-auto text-center language">
-          <div
+          {/* <div
             onClick={() =>
               this.applyPickedLanguage(
                 window.$primaryLanguage,
@@ -115,7 +93,7 @@ class App extends Component {
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>
-          </div>
+          </div> */}
         </div>
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
