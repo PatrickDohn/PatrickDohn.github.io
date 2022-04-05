@@ -71,8 +71,8 @@ class Experience extends Component {
               <span className="text-black" style={{ textAlign: "center" }}>
                 {sectionName}
               </span>
-              <a href="/patrick-dohn-resume.pdf" target="_blank" rel="noref"  >resume</a>
             </h1>
+              
           </div>
         </div>
         <div className="col-md-8 mx-auto">
@@ -90,6 +90,9 @@ class Experience extends Component {
             />
           </VerticalTimeline>
         </div>
+        <h3 className="section-title" style={{ color: "black" }}>
+            <a style={{ color: "black" }} href="/patrick-dohn-resume.pdf" target="_blank" rel="noref">download resume</a>
+            </h3>
       </section>
     );
   }
