@@ -14,10 +14,7 @@
       "title": "ResGenie",
       "startDate": "2020",
       "description": [
-        "• Created a web application that converts JSON into a preformatted resume.",
-        "• Wrote a custom webpack config for Javascript bundling and optimization.",
-        "• Set up ESLint and Prettier with pre-commit Git hooks for code consistency.",
-        "• Researched and implemented third-party packages for rendering PDFs on the web page."
+        "A resume building application for software engineers. Allows developers to edit JSON to build beautiful resumes."
       ],
       "images": ["images/Res-Gen.png", "images/Res-Gen-Demo.png"],
       "url": "https://github.com/starter-code/res-gen",
@@ -36,10 +33,7 @@
       "title": "Medi Thanks",
       "startDate": "2020",
       "description": [
-        "• A web app for frontline medical workers to receive appreciation for their work.",
-        "• Spearheaded a hackathon winning fullstack application.",
-        "• Collaborated with UX designers to implement an intuitive user experience.",
-        "• Set up authentication with three other engineers."
+       "A way to give thanks to frontline workers. This project was built as a part of a hackathon and won as the best overall project. It gives you the ability to create, read, update, and delete thank you cards for healthcare professionals during a time when interactions with that population are minimal. Built with a MERN stack."
       ],
       "images": ["images/Medi-thanks.png"],
       "url": "https://github.com/PB-J/frontline-frontend",
@@ -97,7 +91,6 @@
       "years": "09.2021 - present",
       "mainTech": ["JavaScript"],
       "technologies": [
-        "JavaScript",
         "TypeScript",
         "React",
         "Ionic",
@@ -112,7 +105,7 @@
       "title": "Software Engineer Intern",
       "years": "04.2021 - 09.2021",
       "mainTech": ["JavaScript"],
-      "technologies": ["JavaScript", "TypeScript", "React", "Wordpress"]
+      "technologies": ["TypeScript", "React", "Wordpress"]
     }
   ]
 }
